@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Nike</title>
+</head>
+<body>
+    <div class="nav bg-gray-100 w-full h-[35px] no-underline hidden lg:block flex py-1">
+        <ul class="flex float-right space-x-5 mx-8 pt-1 text-[14px]">
+            <li>Find a store</li><span>|</span>
+            <li>Help</li><span>|</span>
+            <li>Join Us</li><span>|</span>
+            <li>Sign in</li>
+        </ul>
+        <div class="flex float-left space-x-5">
+            <svg class="mx-3" height="24px" width="24px" fill="#111" viewBox="0 0 26 32">
+                <path
+                    d="M14.4 5.52v-.08q0-.56.36-1t.92-.44 1 .36.48.96-.36 1-.96.4l-.24.08.08.12-.08.44-.16 1.28q.08.08.08.16l-.16.8q-.08.16-.16.24l-.08.32q-.16.64-.28 1.04t-.2.64V12q-.08.4-.12.64t-.28.8q-.16.32 0 1.04l.08.08q0 .24.2.56t.2.56q.08 1.6-.24 2.72l.16.48q.96.48.56 1.04l.4.16q.96.48 1.36.84t.8.76q.32.08.48.24l.24.08q1.68 1.12 3.36 2.72l.32.24v.08l-.08.16.24.16h.08q.24.16.32.16h.08q.08 0 .16-.08l.16-.08q.16-.16.32-.24h.32q.08 0 0 .08l-.32.16-.4.48h.56l.56.08q.24-.08.4-.16l.4-.24q.24-.08.48.16h.08q.08.08-.08.24l-.96.88q-.4.32-.72.4l-1.04.72q-.08.08-.16 0l-.24-.32-.16-.32-.2-.28-.24-.32-.2-.24-.16-.2-.32-.24q-.16 0-.32-.08l-1.04-.8q-.24 0-.56-.24-1.2-1.04-1.6-1.28l-.48-.32-.96-.16q-.48-.08-1.28-.48l-.64-.32q-.64-.32-.88-.32l-.32-.16q-.32-.08-.48-.16l-.16-.16q-.16 0-.32.08l-1.6.8-2 .88q-.8.64-1.52 1.04l-.88.4-1.36.96q-.16.16-.32 0l-.16.16q-.24.08-.32.08l-.32.16v.16h-.16l-.16.24q-.16.32-.32.36t-.2.12-.08.12l-.16.16-.24.16-.36-.04-.48.08-.32.08q-.4.08-.64-.12t-.4-.6q-.16-.24.16-.4l.08-.08q.08-.08.24-.08h.48L1.6 26l.32-.08q0-.16.08-.24.08-.08.24-.08v-.08q-.08-.16-.08-.32-.08-.16-.04-.24t.08-.08h.04l.08.24q.08.4.24.24l.08-.16q.08-.16.24-.16l.16.16.16-.16-.08-.08q0-.08.08-.08l.32-.32q.4-.48.96-.88 1.12-.88 2.4-1.36.4-.4.88-.4.32-.56.96-1.2.56-.4.8-.56.16-.32.4-.32H10l.16-.16q.16-.08.24-.16v-.4q0-.4.08-.64t.4-.24l.32-.32q-.16-.32-.16-.72h-.08q-.16-.24-.16-.48-.24-.4-.32-.64h-.24q-.08.24-.4.32l-.08.16q-.32.56-.56.84t-.88.68q-.4.4-.56.88-.08.24 0 .48l-.08.16h.08q0 .16.08.16h.08q.16.08.16.2t-.24.08-.36-.16-.2-.12l-.24.24q-.16.24-.32.2t-.08-.12l.08-.08q.08-.16 0-.16l-.64.16q-.08.08-.2 0t.04-.16l.4-.16q0-.08-.08-.08-.32.16-.64.08l-.4-.08-.08-.08q0-.08.08-.08.32.08.8-.08l.56-.24.64-.72.08-.16q.32-.64.68-1.16t.76-.84l.08-.32q.16-.32.32-.56t.4-.64l.24-.32q.32-.48.72-.48l.24-.24q.08-.08.08-.24l.16-.16-.08-.08q-.48-.4-.48-.72-.08-.56.36-.96t.88-.36.68.28l.16.16q.08 0 .08.08l.32.16v.24q.16.16.16.24.16-.24.48-.56l.4-1.28q0-.32.16-.64l.16-.24v-.16l.24-.96h.16l.24-.96q.08-.24 0-.56l-.32-.8z">
+                </path>
+            </svg>
+            <svg height="24px" width="24px" fill="#111" viewBox="0 0 39 33">
+                <path
+                    d="M10.94 25.626l-4.236-5.501L.201 22.28l3.734-5.756L.11 10.777l6.59 2.031 4.026-5.474.14 6.785 6.64 2.175-6.594 2.446.028 6.886zm.824 7.239l13.952-16.393L11.806.107h11.697l14.871 16.389-14.8 16.369h-11.81z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    
+    <body class="bg-[url('unsplash.jpg')] bg-cover" x-data="{ openMenu : false }"
+        :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+    
+        <style>
+            [x-cloak] {
+                display: none !important;
+            }
+        </style>
+    
+        <header class="flex justify-between items-center bg-white drop-shadow-sm px-8">
+    
+            <!-- Logo -->
+            <img src="https://cdn.singular.net/dashboard/banners/29beaa59fc1cb4d7195c8ed1c8fc957f4b2b69ab" class="h-16 w-16 p-0 m-0" alt="">
+    
+            <!-- Mobile Menu Toggle -->
+            <button class="flex lg:hidden flex-col items-center align-middle" @click="openMenu = !openMenu"
+                :aria-expanded="openMenu" aria-controls="mobile-navigation" aria-label="Navigation Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <span class="text-xs">Menu</span>
+            </button>
+    
+            <!-- Main Navigations -->
+            <div class="menu hidden lg:block grid place-items-center">
+            
+                <div class="flex justify-center justify-content-center align-items-center items-center">
+            
+                    <div class="space-x-7 text-bold text-lg mr-[150px] flex justify-center items-center ">
+                        <div class="max-sm:hidden peer-hover:flex hover:flex ">New & Featured</div>
+                        <a>Men</a>
+                        <a>Women</a>
+                        <a>Kids</a>
+                        <a>sale</a>
+                        <a>Guides</a>
+                    </div>
+            
+                    <div class=" float-right flex pr-[30px]">
+                        <div class="wrapper flex pr-[30px]">
+                            <div class="search-input bg-gray-50">
+                                <a href="" target="_blank" hidden></a>
+                                <input type="text" placeholder="Type to search..." class=" block w-[170px] h-[35px] p-2  text-sm text-gray-900  bg-gray-50 dark:border-gray-100 rounded-2xl">
+                                <div class="autocom-box">
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-regular fa-heart pl-[20px] text-2xl"></i><i class="fa-solid fa-store ml-[10px] text-2xl"></i>
+                    </div>
+                </div>
+    
+        </header>
+    
+    
+        <!-- Pop Out Navigation -->
+        <nav id="mobile-navigation" class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10"
+            :class="openMenu ? 'visible' : 'invisible' " x-cloak>
+    
+            <!-- UL Links -->
+            <ul class="absolute top-0 right-0 bottom-0 w-10/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+                :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+    
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4" aria-current="true">New & Featured</a>
+                </li>
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4">Men</a>
+                </li>
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4">Women</a>
+                </li>
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4">Kids</a>
+                </li>
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4">sale</a>
+                </li>
+                <li class="border-b border-inherit">
+                    <a href="#" class="block p-4">Guides</a>
+                </li>
+    
+            </ul>
+    
+            <!-- Close Button -->
+            <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu" :aria-expanded="openMenu"
+                aria-controls="mobile-navigation" aria-label="Close Navigation Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+    
+        </nav>
+    
+    </body>
+
+
+<div class="relative h-[70px]">
+    <!-- Swiper -->
+    <div class="swiper mySwiper1 h-[100%]">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-gray-100">
+                <p class="justify-center text-lg flex flex-grow flex-row pt-1">Save Up to 40%</p>
+                <a class="justify-center text-sm flex flex-grow flex-row pt-1 pb-1 underline">Shop All Our New Markdowns</a>
+             </div>
+            <div class="swiper-slide bg-gray-100">
+                <p class="justify-center text-lg flex flex-grow flex-row pt-1">Free Delivery & Returns</p>
+                <a class="justify-center text-sm flex flex-grow flex-row pt-1 pb-1 ">Nike Members get free delivery and free 30-day returns.</a>
+            </div>
+            <div class="swiper-slide bg-gray-100">
+                <p class="justify-center text-lg flex flex-grow flex-row pt-1">Student Discount
+                </p>
+                <a class="justify-center text-sm flex flex-grow flex-row pt-1 pb-1 underline">10% off for students. Discover</a>
+            </div>
+        </div>
+       
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            spaceBetween: 10,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    </div>
+
+    
+
+
+    
+
+            <div class="img ml-[50px] mr-[50px]">
+                 <img data-qa="image-media-img" alt="Nike. Just Do It" class="_32IPZERI _3jm9Bm_E guL_1FMX hidden lg:block" src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1329,c_limit/0a5aa15e-e49a-4b32-925c-8a848b234b79/nike-just-do-it.jpg" data-landscape-url="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/0a5aa15e-e49a-4b32-925c-8a848b234b79/nike-just-do-it.jpg" data-portrait-url="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/0a5aa15e-e49a-4b32-925c-8a848b234b79/nike-just-do-it.jpg" data-image-loaded-class="guL_1FMX">
+            </div>
+
+            <div class="mt-[50px]  grid place-items-center">
+                <a class="font-sans text-7xl font-extrabold justify-center flex flex-grow flex-row tracking-tighter">ALL THE CUSHION ,</a><br>
+                <a class="font-sans text-7xl font-extrabold justify-center flex flex-grow flex-row tracking-tighter">ALL THE FEELS</a><br>
+                <p class="justify-center flex flex-grow flex-row">The Nike lnvincible 3 is our most cushioned road-running shoe yet</p><br>
+                <button class="items-center bg-black text-white rounded-full px-7 py-3">Shop Running Shoes</button>
+            </div>
+
+            <div class="flex mt-[50px]">
+                <div class="w-1/3 h-auto mx-7"><img src="./content/img/65.webp" alt=""></div>
+                <div class="w-1/3 h-auto"><img src="./content/img/66.webp" alt=""></div>
+                <div class="w-1/3 h-auto mx-7"><img src="./content/img/67.webp" alt=""></div>
+            </div>
+<!--  -->
+            <div class="mt-[50px]">
+                
+            <!-- <video playsinline autoplay muted loop class="w-full">
+                
+            
+                <source src="./content/img/" type="video/mp4">
+            
+                Download the
+                <a href="/media/cc0-videos/flower.webm">WEBM</a>
+                or
+                <a href="/media/cc0-videos/flower.mp4">MP4</a>
+                video.
+            </video> -->
+
+
+<!-- <video loop playsinline="playsinline" class="vjs-tech" id="vjs_video_1744_html5_api" tabindex="-1" preload="auto" muted="muted" src="blob:https://www.nike.com/e5fc381f-8365-4957-9161-032836a1ed79"></video> -->
+            
+            </div>
+<!-- </div> -->
+            
+            <!--  -->
+
+            <div class="mt-[50px]  grid place-items-center">
+                <p class="font-sans text-6xl font-extrabold justify-center flex flex-grow flex-row tracking-tighter">SPRING IN YOUR STEP</p><br>
+                <p class="justify-center flex flex-grow flex-row">Turn the fun up the bright and bouncy Air VaporMax.</p>
+                <div class="justify-center lg:flex black flex-grow flex-row mt-5">
+                    <button class="bg-black text-white px-7 py-1 rounded-full items-center mx-2 mt-2">Shop Men's Air</button>
+                    <button class="bg-black text-white px-7 py-1 rounded-full items-center mx-2 mt-2">Shop women's Air</button>
+                    <button class="bg-black text-white px-7 py-1 rounded-full items-center mx-2 mt-2">Shop kind's Air</button>
+                </div>
+            </div>
+
+            <div class="text-2xl ml-5 mt-[80px]"><p>Popular Right Now</p></div>
+
+            <div class="swiper mySwiper mt-5 px-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./content/img/6.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/7.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/8.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/9.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/10.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/11.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/12.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                    <div class="swiper-slide"><img src="./content/img/13.webp" alt=""><br><h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br><p class=" float-left text-gray-400">Women's Shoes</p></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                        // pagination: {
+                        //     el: ".swiper-pagination",
+                        //     clickable: true,
+                        // },
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                                spaceBetween: 50,
+                            },
+                        },
+                    });
+
+                </script>
+            </div>
+            
+           
+
+
+        <div class="text-2xl mx-12 mt-[100px]">
+            <h1>Get Ready</h1>
+
+           <div class="bg-[url('./content/img/14.webp')] w-[100%] h-[100%] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center mt-5">
+           <div class=" grid place-items-center">
+
+            <p class="pt-5 font-sans text-7xl font-extrabold justify-center flex flex-grow flex-row tracking-tighter text-white">
+                WOMEN'S EVENT</p>
+            <p class="font-sans text-7xl font-extrabold justify-center flex flex-grow flex-row tracking-tighter text-white">START
+                03.06.23</p><br>
+            <p class="text-white text-sm">Don't miss 6 days filled with Member-exclusive drop, stories, and more.</p><br>
+            <button class="items-center bg-white text-black rounded-full px-6 py-2 text-sm mb-5">See the lineuo</button>
+           </div>
+
+           </div>
+        </div>
+
+        <!-- <div><p class="ml-10 mb-5 mt-[80px] text-2xl font-bold">Trending</p></div>
+        <div class="mt-5 lg:flex md:flex px-10 block">
+          <div class=" w-full h-[650px] mx-2 bg-[url('./content/img/19.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center relative object-cover mt-5">
+            <p class="absolute bottom-[120px] left-[35px] text-2xl text-white font-bold">Cynthia Cervantes's Unexpected Fits</p>
+            <button class="px-4 py-2 absolute bottom-[60px] bg-white rounded-full left-[35px]">Shop Women's Lifestyle</button>
+        </div>
+           <div class=" w-full h-[650px] mx-2 inline-block bg-[url('./content/img/20.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center relative mt-5 object-cover">
+            <p class="absolute bottom-[120px] left-[35px] text-2xl text-white font-bold">AJ1 Elevate</p>
+            <button class="px-4 py-2 absolute bottom-[60px] bg-white rounded-full left-[35px]">Shop Women's Jordan</button>
+        </div>
+        </div> -->
+
+        <!-- <p class="mx-9 mt-[80px] font-bold text-2xl w-[90%]">Always Iconic</p>
+        <div class="swiper mySwiper mt-5 px-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide w-[90%] h-[90%]"><img class="" src="./content/img/21.webp" alt=""><br>
+                    <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                    <p class=" float-left text-gray-400">Women's Shoes</p>
+                </div>
+                <div class="swiper-slide w-[90%] h-[90%]"><img class="" src="./content/img/22.webp" alt=""><br>
+                    <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                    <p class=" float-left text-gray-400">Women's Shoes</p>
+                </div>
+                <div class="swiper-slide w-[90%] h-[90%]"><img class="" src="./content/img/23.jpeg" alt=""><br>
+                    <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                    <p class=" float-left text-gray-400">Women's Shoes</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 10,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 10,
+                        },
+                    },
+                });
+
+            </script>
+        </div>
+         -->
+       
+        
+        
+
+        <p class="mx-9 mt-[80px] font-bold text-2xl">Shop By Sport</p>
+        <div class="swiper mySwiper3 mt-5">
+            <div class="swiper-wrapper ">
+                <div class="swiper-slide text-lg flex justify-content-center align-items-centerper-slide "><img class="block w-[100%] h-[100%]" src="./content/img/45.webp" alt=""></div>
+                <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/46.webp" alt=""></div>
+                <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/47.webp" alt=""></div>
+                <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/48.webp" alt=""></div>
+                <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/49.webp" alt=""></div>
+                <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/50.webp" alt=""></div>
+                <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/51.webp" alt=""></div>
+                <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img class="block w-[100%] h-[100%]" src="./content/img/52.webp" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper3 = new Swiper(".mySwiper3", {
+        slidesPerView: 2,
+        spaceBetween:10,
+        rewind: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+         breakpoints: {
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 10,
+            },
+        },
+    });
+</script>
+
+<p class="mx-9 mt-[80px] font-bold text-2xl">Month of Air</p>
+<div class="mt-5 lg:flex md:flex px-10 block">
+    <div
+        class=" w-full h-[300px] mx-2 bg-[url('./content/img/55.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover  relative object-cover mt-5">
+        <p class="absolute bottom-[120px] left-[35px] text-xl text-white ">Get the lastest Air on the Nike App
+        </p>
+        <button class="px-4 py-2 absolute bottom-[60px] bg-white rounded-full left-[35px]">Download Now</button>
+    </div>
+    <div
+        class=" w-full h-[300px] mx-2 inline-block bg-[url('./content/img/56.jpeg')] bg-clip-border bg-origin-border bg-no-repeat bg-cover relative mt-5 object-cover">
+        <p class="absolute bottom-[120px] left-[35px] text-xl text-white ">Get access to exclusives and more</p>
+        <button class="px-4 py-2 absolute bottom-[60px] bg-white rounded-full left-[35px]">Download SNKRS</button>
+    </div>
+</div>
+
+        
+        <!-- <p class="mx-9 mt-[80px] font-bold text-2xl">Always Iconic</p>
+            <div class="flex mt-[30px]">
+                <div class="w-1/3 h-auto mx-10"><img src="./content/img/26.webp" alt="">
+                    <p class="px-2 text-2xl pt-3">Nike Blazer</p>
+                </div>
+                <div class="w-1/3 h-auto"><img src="./content/img/27.webp" alt="">
+                    <p class="px-2 text-2xl pt-3">Air Force 1</p>
+                </div>
+                <div class="w-1/3 h-auto mx-10"><img src="./content/img/28.webp" alt="">
+                    <p class="px-2 text-2xl pt-3">Air Jordan 1</p>
+                </div>
+            </div> -->
+
+            <!-- <p class="mx-9 mt-[80px] font-bold text-2xl">Always Iconic</p>
+            <div class="swiper mySwiper mt-5 px-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./content/img/28.webp" alt=""><br>
+                        <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                        <p class=" float-left text-gray-400">Women's Shoes</p>
+                    </div>
+                    <div class="swiper-slide"><img src="./content/img/27.webp" alt=""><br>
+                        <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                        <p class=" float-left text-gray-400">Women's Shoes</p>
+                    </div>
+                    <div class="swiper-slide"><img src="./content/img/26.webp" alt=""><br>
+                        <h3 class="float-left">Nike Air Max</h3><span class="float-right">290$</span><br>
+                        <p class=" float-left text-gray-400">Women's Shoes</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                
+                
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                        
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                        },
+                    });
+
+                </script>
+            </div> -->
+
+           
+            <div class="swiper mySwiper3 mt-[5rem]">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide text-lg flex justify-content-center align-items-centerper-slide "><img
+                            class="block w-[100%] h-[100%]" src="./content/img/57.webp" alt=""></div>
+                    <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/58.webp" alt=""></div>
+                    <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/59.webp" alt=""></div>
+                    <div class="swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/60.webp" alt=""></div>
+                    <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/61.webp" alt=""></div>
+                    <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/62.webp" alt=""></div>
+                    <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/63.webp" alt=""></div>
+                    <div class=" swiper-slide text-lg flex justify-content-center align-items-center"><img
+                            class="block w-[100%] h-[100%]" src="./content/img/64.webp" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>
+                var swiper3 = new Swiper(".mySwiper3", {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    rewind: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                     breakpoints: {
+                        640: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 5,
+                            spaceBetween: 10,
+                        },
+                    },
+                });
+            </script>
+
+
+            
+
+            <div class="text-2xl mx-12 mt-[100px]">
+                <h1>Nike Membership</h1>
+            
+                <div
+                    class="bg-[url('./content/img/29.webp')] w-[100%] h-[100%] bg-clip-border bg-origin-border bg-no-repeat bg-cover mt-5">
+                    <div class=" grid mx-10 ">
+            
+                        <p
+                            class="pt-5 font-sans text-7xl font-extrabold tracking-tighter text-white">
+                            BECOME A</p>
+                        <p
+                            class="font-sans text-7xl font-extrabold  tracking-tighter text-white">
+                            MEMBER</p><br>
+                        <p class="text-white text-sm">Sign up for free. Join the community</p>
+                        <br>
+                      <div class="flex">
+                        <button class=" bg-white text-black rounded-full px-6 py-2 text-sm mb-5">Join Us</button>
+                        <button class=" bg-white text-black rounded-full px-6 py-2 text-sm mb-5 mx-2">Sign In</button>
+                      </div>
+                    </div>
+            
+                </div>
+            </div>
+
+    
+            <!-- <div class="mt-5 flex px-10 ">
+                <div class="w-1/3 h-auto mx-3 inline-block bg-[url('./content/img/30.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center relative mt-5 object-cover">
+                    <p class="absolute bottom-[60px] left-[35px] text-2xl">Shop Member-exciusive <br> style.</p>
+                </div>
+                <div class="w-1/3 h-auto mx-3 inline-block bg-[url('./content/img/31.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center relative mt-5 object-cover">
+                    <p class="absolute bottom-[60px] left-[35px] text-2xl">Free standard shopping on all order.</p>
+                </div>
+                <div class="w-1/3 h-auto mx-3 inline-block bg-[url('./content/img/32.webp')] bg-clip-border bg-origin-border bg-no-repeat bg-cover bg-center relative mt-5 object-cover">
+                    <p class="absolute bottom-[60px] left-[35px] text-2xl">Customize your so-you shoe.</p>
+                </div>
+            </div> -->
+
+            <div class="p-20 lg:flex md:flex block flex-row justify-center two grid place-items-center">
+                <div class="five">
+                    <button class="mx-[50px] mt-[80px] text-gray-500 peer px-5 py-2 text-white tree ">Featured</button>
+            
+            
+                    <ul class="max-md:hidden peer-hover:flex hover:flex flex-col drop-shadow-lg grid place-items-center foure">
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Air Force 1</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Jordan 1</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Air Max 2090</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Air Max 270</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Air Max 97</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Air Max 90</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Blazer</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">React</li>
+                        <li class="py-2 px-2 hover:bg-gray-200 one">Pegasus</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="mx-[50px] mt-[80px] text-gray-500 peer px-5 py-2  text-white">Shoes</button>
+            
+            
+                    <ul class="max-md:hidden peer-hover:flex hover:flex flex-col drop-shadow-lg grid place-items-center">
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">All Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Jordan Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Running Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Basketball Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Tennis Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Training Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Custom Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Sale Shoes</li>
+                        <li class="py-2 px-2 hover:text-black hover:bg-gray-200">Soccer Cleats</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="mx-[50px] mt-[80px] text-gray-500 peer px-5 py-2  text-white">Clothing</button>
+            
+            
+                    <div class="max-md:hidden peer-hover:flex hover:flex flex-col drop-shadow-lg place-items-center grid">
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">All Clothing</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Tops & T-Shirts</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Shorts</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Hoodies</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Joggers</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Sports Bras</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Pants & Tights</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Socks</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Yoga</a>
+                    </div>
+                </div>
+                <div>
+                    <button class="mx-[50px] mt-[80px] text-gray-500 peer px-5 py-2 text-white">Kids'</button>
+            
+            
+                    <div class="max-md:hidden peer-hover:flex hover:flex  flex-col drop-shadow-lg place-items-center grid">
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Infant</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Shoes</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Basketball</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Running</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Jordan</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Clothing</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Backpacks</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Socks</a>
+                        <a class="py-2 px-2 hover:text-black hover:bg-gray-200">Kids'Sale</a>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="bg-black lg:flex text-xs text-gray-50">
+                <ul class="mx-[70px] mt-[20px] mb-[20px] text-sm pt-[50px]">
+                    <li class="mb-5">GIFT CARDS</li>
+                    <li class="py-2">PROMOTIONS</li>
+                    <li class="py-2">FIND A STORE</li>
+                    <li class="py-2">SIGN UP FOR EMAIL</li>
+                    <li class="py-2">BECOME A MEMBER</li>
+                    <li class="py-2">NIKE JOURNAL</li>
+                    <li class="py-2">SEND US FEEDBACK</li>
+                </ul>
+                <ul class="mx-[70px] mt-[50px] mb-[20px] text-gray-500 pt-[50px]">
+                    <li class="mb-5 text-gray-50">GET HELP</li>
+                    <li class="py-2">Order Status</li>
+                    <li class="py-2">Shipping and Delivery</li>
+                    <li class="py-2">Returns</li>
+                    <li class="py-2">Payment Options</li>
+                    <li class="py-2">Gift Card Balance</li>
+                    <li class="py-2">Contact Us</li>
+                </ul>
+                <ul class="mx-[70px] mt-[80px] mb-[20px] text-gray-500 pt-[50px]">
+                    <li class="mb-5 text-gray-50">ABOUT NIKE</li>
+                    <li class="py-2">News</li>
+                    <li class="py-2">Careers</li>
+                    <li class="py-2">Investors</li>
+                    <li class="py-2">Purpose</li>
+                    <li class="py-2">Sustainability</li>
+                </ul>
+            </div>
+            <div class="relative w-full flex justify-end">
+                <div class="text-2xl mx-3 absolute bottom-[30px] w-full flex justify-end "><i
+                        class="fa-brands fa-twitter  rounded-full  bg-gray-400 w-8 h-8 flex justify-content-center align-items-center justify-center items-center"></i>
+                </div>
+                <div class="text-2xl mx-3 absolute bottom-[30px] right-[50px] w-full flex justify-end "><i
+                        class="fa-brands fa-facebook-f  rounded-full  bg-gray-400 w-8 h-8 flex justify-content-center align-items-center justify-center items-center"></i>
+                </div>
+                <div class="text-2xl mx-3 absolute bottom-[30px] right-[100px] w-full flex justify-end "><i
+                        class="fa-brands fa-youtube  rounded-full  bg-gray-400 w-8 h-8 flex justify-content-center align-items-center justify-center items-center"></i>
+                </div>
+                <div class="text-2xl mx-3 absolute bottom-[30px] right-[150px] w-full flex justify-end "><i
+                        class="fa-brands fa-instagram  rounded-full  bg-gray-400 w-8 h-8 flex justify-content-center align-items-center justify-center items-center"></i>
+                </div>
+            </div>
+
+            <!-- <script>
+                function dropDown() {
+                        document.querySelector('#submenu').classList.toggle('hidden')
+                        document.querySelector('#arrow').classList.toggle('rotate-0')
+                    }
+                    dropDown()
+
+                    function Openbar() {
+                        document.querySelector('.sidebar').classList.toggle('right-[0px]')
+
+                    }
+            </script> -->
+
+    <script src="./content/script/script.js"></script>
+    <script src="./content/script/sug.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* .font{
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+  */
+
+  /* @font-face {
+    font-family: Bold;
+    src: url(../font/Bold\ Game\ Font\ 7-FontZillion/);
+  }
+
+  .font{
+    font-family:Bold;
+  } */
+
+
+ 
+
+ 
+
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ } */
+
+
+ .swiper3 {
+   width: 100%;
+   height: 100%;
+ }
+
+ .swiper-slide3 {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .swiper-slide3 img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ 
+ 
+
+ /* .wrapper .search-input {
+   /* background: #fff; */
+   /* width: 100%;
+   border-radius: 5px; */
+   /* position: relative;
+   box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+ } */ 
+
+ 
+
+ .search-input.active input {
+   border-radius: 5px 5px 0 0;
+ }
+
+ .search-input .autocom-box {
+   padding: 0;
+   opacity: 0;
+   pointer-events: none;
+   max-height: 280px;
+   overflow-y: auto;
+ }
+
+ .search-input.active .autocom-box {
+   /* padding: 10px 8px; */
+   opacity: 1;
+   pointer-events: auto;
+ }
+
+ .autocom-box li {
+   list-style: none;
+   /* padding: 8px 12px; */
+   display: none;
+   /* width: 100%; */
+   cursor: default;
+   /* border-radius: 3px; */
+ }
+
+ .search-input.active .autocom-box li {
+   display: block;
+ }
+
+ .autocom-box li:hover {
+   background: #efefef;
+ }
+
+ .search-input .icon {
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   /* height: 55px;
+   width: 55px; */
+   text-align: center;
+   /* line-height: 55px;
+   font-size: 20px; */
+   cursor: pointer;
+ }
+ .one{
+  overflow: hidden;
+  transition: all 1s ease;
+    
+ }
+ .five:hover .one{
+  transition: all 1s ease;
+  
+ }
+ 
